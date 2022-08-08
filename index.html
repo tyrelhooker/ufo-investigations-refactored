@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>UFO INVESTIGATIONS</title>
+<!--Adding "retro" font for game.-->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<!--Calling Bootstrap for button styling.-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<!--Calling CSS style sheet.-->
+    <link rel="stylesheet" href="public/assets/css/style.css">
+  </head>
+
+  <body>
+<!--Main intro image and title.-->
+    <div class="container">
+      <section class="intro"><img src="public/assets/images/earth-spinning-rotating-animation-41.gif" alt="Spinning Earth" align="left">UFO INVESTIGATIONS</section>
+    </div>
+<!--Button to start game.-->
+    <div>
+    <a href="game"><button type="button" class="btn btn-danger  btn-circle btn-xl active pull-right">START</button></a>
+    </div>
+<!--Span for displaying High Scores-->
+    <div id="scores">
+      <h1 class="highScores">Top Scores:</h1>
+    </div>
+<!--Calling jQuery.-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<!--Calling High Scores.-->
+  <script src="./public/assets/js/topFive.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<!-- Adding "retro" font for game. -->
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<!-- Calling CSS style sheet. -->
+        <link rel="stylesheet" href="public/assets/css/style1.css">
+        <title>UFO INVESTIGATIONS</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="split left">
+                <canvas id="canvas"></canvas>
+            </div>
+<!-- Map display. Stretch goal to have clickable cities linked with canvas and text. -->
+            <div class="split right"> 
+            <img id="map" src="public/assets/images/8-bit-google-maps-1.jpg" alt="Map">
+            </div>
+        </div>
+<!-- Button placement. Unable to position w/o use of multiple "br" tags.  -->
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="bottom">
+            <span class="jbGame"></span>
+        </div>
+<!-- Calling jQuery. -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<!-- Calling Animation. -->
+        <script src="./public/assets/js/sprite.js"></script>
+        <script src="./public/assets/js/animation.js"></script>
+        <script src="./public/assets/js/middleScenes.js"></script>
+        <script src="./public/assets/js/outcomes.js"></script>
+<!-- Calling Game Engine. -->
+        <script src="./public/assets/js/game.js"></script>
+
+    </body>
+
+</html>

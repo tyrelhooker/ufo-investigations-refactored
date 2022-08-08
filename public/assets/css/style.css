@@ -1,0 +1,76 @@
+body{
+    font-family:'Press Start 2P',cursive;
+    margin:0;
+    background-image:url("../images/sunrise-1756274_1920.jpg");
+    background-repeat:no-repeat;
+}
+.intro{/*Animation, size and text color.*/
+    font-family:"Press Start 2P",cursive;
+    position:absolute;
+    top:30%;
+    left:35%;
+    z-index:1;
+    animation:intro 5s ease-out 1s;
+    color:#4682b4;
+    font-weight:400;
+    font-size:300%;
+    opacity:0;
+}
+@keyframes intro{/*Fading look of title.*/ 
+    0%{
+        opacity:0;
+    }
+    20%{
+        opacity:1;
+    }
+    90%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+.btn {/*Start Button design.*/
+    position:relative;
+    margin-left:43%;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:none;
+    color:#FFFFFF;
+    cursor:pointer;
+    display:inline-block;
+    font-size:20px;
+    padding:5px 10px;
+    text-align:center;
+    text-decoration:none;
+    -webkit-animation:glowing 1500ms infinite;
+    -moz-animation:glowing 1500ms infinite;
+    -o-animation:glowing 1500ms infinite;
+    animation:glowing 1500ms infinite;
+}
+/*Glowing button effect. Credit:Muhammad Arslan Aslam.*/
+@-webkit-keyframes glowing {
+    0% { background-color:#B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+    50% { background-color:#FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color:#B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+@-moz-keyframes glowing {
+    0% { background-color:#B20000; -moz-box-shadow: 0 0 3px #B20000; }
+    50% { background-color:#FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color:#B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+@-o-keyframes glowing {
+    0% { background-color:#B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color:#FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color:#B20000; box-shadow: 0 0 3px #B20000; }
+}
+@keyframes glowing {
+    0% { background-color:#B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color:#FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color:#B20000; box-shadow: 0 0 3px #B20000; }
+}
+#scores{
+    color:#ffffff;
+    margin-left:15px;
+    margin-bottom:0;
+}

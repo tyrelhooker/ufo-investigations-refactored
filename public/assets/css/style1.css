@@ -1,0 +1,31 @@
+*{
+  font-family: 'Press Start 2P', cursive;
+  text-align:center;
+  background-color:#000000;
+  color:#fff;
+}
+.split {/*Screen adjustment for "split" view.*/
+  height: 50%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+.left {/*Canvas display.*/
+  left:0;
+}
+.right {/*Map display.*/
+  right:0;
+}
+.bottom{/*Game play screen.*/
+  left:0;
+  right:0;
+}
+#map, #canvas{/*Dimension adjustment to windows for placement.*/
+  height:99%;
+  width:100%;
+}
+button:hover{
+  background-color: dimgray;
+}
