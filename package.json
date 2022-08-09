@@ -1,32 +1,41 @@
 {
   "name": "secondproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "This app is refactored from a group project. My intent is to gain experience in working with existing code by removing obsolete code, redesigning the visual aspects of the game, streamlining existing code, and recoding the logic of the game. I may move this into a React app in the future to explore how React handles simple games.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/npasher/secondproject.git"
+    "url": "git+https://github.com/tyrelhooker/ufo-investigations-refactored.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/npasher/secondproject/issues"
+    "url": "https://github.com/tyrelhooker/ufo-investigations-refactored/issues"
   },
-  "homepage": "https://github.com/npasher/secondproject#readme",
+  "homepage": "https://github.com/tyrelhooker/ufo-investigations-refactored",
   "dependencies": {
     "api-routes": "^0.2.1",
     "body-parser": "^1.18.3",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
+    "express-handlebars": "^6.0.6",
     "inquirer": "^6.0.0",
     "mysql": "^2.15.0",
     "mysql2": "^1.5.3",
     "path": "^0.12.7",
     "request": "^2.87.0",
-    "sequelize": "^4.37.10"
+    "sequelize": "^6.21.3"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
   }
 }

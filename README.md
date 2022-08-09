@@ -1,6 +1,6 @@
 # UFO INVESTIGATIONS REFACTORED
 
-This app is refactored from a group project. My intent is to remove obsolete code, redesign the visual aspects of the game, streamline existing code, and recode the logic of the game. I may move this into a React app in the future to explore how React handles simple games. 
+This app is refactored from a group project. My intent is to gain experience in working with existing code by removing obsolete code, redesigning the visual aspects of the game, streamlining existing code, and recoding the logic of the game. I may move this into a React app in the future to explore how React handles simple games. 
 
 The original readme is included below:
 

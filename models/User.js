@@ -1,7 +1,7 @@
 // Makes the searchTeam Model available for other files (will also create a table)
 
-module.exports = function(sequelize, DataTypes) {
-  var user = sequelize.define("user", {
+export default function (sequelize, DataTypes) {
+  const user = sequelize.define('user', {
     userName: {
       type: DataTypes.STRING,
       allowNull: false
@@ -21,9 +21,9 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: true,
       defaultValue: null
     }
-  });
-  return user;
-};
+  })
+  return user
+}
 // module.exports = function(sequelize, DataTypes) {
 //   var User = sequelize.define("user", {
 //     userName: DataTypes.STRING,
